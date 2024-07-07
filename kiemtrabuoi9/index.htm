@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column; justify-content: space-between">
+      <div class="container">
+        <p>1.</p>
+        <span class="stopwatch" id="stopwatch-1">00:00</span>
+        <div class="buttons">
+          <button onclick="startWatch(1)">Start</button>
+          <button onclick="stopWatch(1)">Stop</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>2.</p>
+        <span class="stopwatch" id="stopwatch-2">00:00</span>
+        <div class="buttons">
+          <button onclick="startWatch(2)">Start</button>
+          <button onclick="stopWatch(2)">Stop</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>3.</p>
+        <span class="stopwatch" id="stopwatch-3">00</span>
+        <div class="buttons">
+          <button onclick="startWatch(3)">Start</button>
+          <button onclick="stopWatch(3)">Stop</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>4.</p>
+        <span class="stopwatch" id="stopwatch-4">00</span>
+        <div class="buttons">
+          <button onclick="startWatch(4)">Start</button>
+          <button onclick="stopWatch(4)">Stop</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>5.</p>
+        <span class="stopwatch" id="stopwatch-5">00</span>
+        <div class="buttons">
+            <button onclick="startWatch(5)">Start</button>
+            <button onclick="stopWatch(5)">Stop</button>
+        </div>
+      </div>
+    </div>
+    <button style="text-align: center; margin: 50px;" onclick="stopAll()">Stop all</button>
+    <script src="script.js"></script>
+  </body>
+</html>
