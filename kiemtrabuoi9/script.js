@@ -3,7 +3,7 @@ let stopwatches = {
     2: { startTime: 0, elapsedTime: 0, running: false, interval: null },
     3: { startTime: 0, elapsedTime: 0, running: false, interval: null },
     4: { startTime: 0, elapsedTime: 0, running: false, interval: null },
-    5: { startTime: 0, elapsedTime: 0, running: false, interval: null }
+    5: { startTime: 0, elapsedTime: 0, running: false, interval: null },
 };
 
 function updateDisplay(id) {
